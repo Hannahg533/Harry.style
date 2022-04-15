@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+    <style type="text/css">
+        html, body, #page {
+            height: 100%;
+            margin: 0;
+            font-size: 24px;
+            font-family: sans-serif;
+        }
+        #page {
+            display: flex;
+            flex-direction: column;
+            min-height: 493px;
+        }
+        #header {
+            background-image: url('header.png');
+            background-repeat: repeat-x;
+            width: 100%;
+            flex-shrink: 0;
+            height: 113px;
+        }
+        #body {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
+        #title {
+            background-image: url('title.png');
+            background-size: 100%;
+            width: 465px;
+            height: 79px;
+            margin-bottom: 2em;
+        }
+        #footer {
+            background-image: url('footer.png');
+            background-repeat: repeat-x;
+            width: 100%;
+            height: 380px;
+        }
+    </style>
+  </head>
+  <body>
+	<div id="page">
+        <div id="header"></div>
+        <div id="body">
+            <div id="title" alt="Hochella"></div>
+            <div id="cta">Join us on&nbsp;<a href="https://us02web.zoom.us/j/83558460528?pwd=RlZYRFc2Y1NvQXlpdlBvUCs0bDZZUT09">Zoom</a> around 11PDT for our pre-party!<br/>Passcode: 520142</div>
+        </div>
+        <div id="footer"></div>
+    </div>
+  </body>
+</html>
